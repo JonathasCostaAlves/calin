@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Outfit&family=Roboto&display=swap');
+
+:root{
+  --bg-color: #DEEEF520;
+  --bg-color-2:#C7E7F4;
+  --bg-color-footer: #DEEEF5;
+  --bg-button-hero:#FFD54F;
+
+  --font-color-white: #F4F4F4;
+  --font-color-black: #000;
+  --font-color-blue: #54C4F3;
+  
+  --font-color-title3: #54C4F3;
+
+  
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+}
+.app .brand{
+  font-family: 'Kanit', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,h2, h3,h4{
+  font-family: 'Outfit', sans-serif;
+} 
+h1{
+  font-size: 5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2{
+  font-size: .87rem;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3{
+  font-size: 1.5rem;
 }
