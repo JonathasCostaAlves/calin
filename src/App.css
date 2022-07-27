@@ -5,27 +5,40 @@
   --bg-color-2:#C7E7F4;
   --bg-color-footer: #DEEEF5;
   --bg-button-hero:#FFD54F;
+  --bg-button-hero-hover:#e7c245;
+  --bg-header-mobile:#0FAEF1;
+  
 
   --font-color-white: #F4F4F4;
   --font-color-black: #000;
   --font-color-blue: #54C4F3;
   
   --font-color-title3: #54C4F3;
+ 
+  --font-size-logo: 3rem;
+
+  --font-famile-brand:  'Kanit', sans-serif;
+  --font-root: 'Roboto', sans-serif;
+  --font-title:'Outfit', sans-serif;
 
   
 
 }
 
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family:var(--font-root) ;
   background-color: var(--bg-color);
-}
-.app .brand{
-  font-family: 'Kanit', sans-serif;
+  overflow-x: hidden;
 }
 
+.app .brand{
+  font-family: var(--font-famile-brand);
+}
+
+
 h1,h2, h3,h4{
-  font-family: 'Outfit', sans-serif;
+  font-family: var(--font-title);
 } 
 h1{
   font-size: 5rem;

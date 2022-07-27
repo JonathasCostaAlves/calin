@@ -1,0 +1,76 @@
+.hero{
+    background:transparent;
+    margin: 0px 5.6rem 0 5.6rem;
+    color: var(--font-color-white);
+}
+.hero .heroTitle{
+    max-width: 43.7rem;
+    margin-bottom: 4.8rem;
+}
+
+.hero .heroTitle h1{
+    font-size: 5rem;
+}
+.hero .heroTitle p{
+    margin-top: 3rem;
+    margin-bottom: 2.6rem;
+    font-size: 1.5rem;
+    max-width: 21.8rem;
+}
+.hero .heroTitle .btn-call-to-action{
+ 
+    width: 16rem;
+    height: 4.3rem;
+    border-radius:1rem;
+    border: none;
+
+    font-weight: 700;
+    font-family: var(--font-root); 
+
+    background-color: var(--bg-button-hero);
+
+    transition: all .3s;
+}
+
+.hero .heroTitle .btn-call-to-action:hover{
+    background-color: var(--bg-button-hero-hover);
+}
+
+.hero img{
+    height: 34.4rem;
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .hero{
+        text-align: center;        
+    }
+    .hero .heroTitle h1{
+        font-size:2rem;
+    }
+    .hero .heroTitle p{
+        margin-top: 1.25rem;
+        margin-bottom: 1.75rem;
+        font-size: .75rem;
+        max-width: 10.1rem;
+        align-self: center;
+    }
+    .hero .heroTitle .btn-call-to-action{
+ 
+        width: 9.56rem;
+        height: 1.87rem;
+        padding: 0;
+        font-size: .75rem;  
+        align-self: center;
+    }
+
+    .hero img{
+        max-height: 15.1rem;
+    }
+    
+}
+
+
+
+
+
