@@ -1,0 +1,60 @@
+.faq{
+  margin: 156px 5.6rem 0 5.6rem;
+  color: var(--font-color-blue-eases);
+  width: 50vw;  
+}
+.faq h2{
+  font-size: 60px;
+  font-family: var(--font-famile-brand);
+}
+.faq p{
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 39px;
+  font-family: var(--font-root);
+
+}
+.accordion-custon{
+  font-size: 34px;
+  color: var(--font-color-blue-eases);
+}
+
+.accordion-body{
+  /* color: var(--font-color-blue-eases); */
+  font-family: var(--font-root);
+  
+}
+
+.accordion-button:not(.collapsed){
+  color: var(--font-color-blue-eases);
+  
+}
+
+
+@media (max-width: 575.98px) { 
+  
+  .faq{      
+    width: 800vw;  
+  }
+  .accordion-custon{
+    font-size: 30px;
+  }
+}
+@media (max-width: 767.98px) { 
+  
+  .faq{      
+    width: 80vw;  
+  }
+  .accordion-custon{
+    font-size: 30px;
+  }
+ }
+
+@media (max-width: 991.98px) { 
+  .faq{      
+    width: 80vw;  
+  }
+  .accordion-custon{
+    font-size: 30px;
+  }
+ }

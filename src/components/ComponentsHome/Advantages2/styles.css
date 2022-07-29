@@ -1,0 +1,19 @@
+.advantages2{
+    color: var(--font-color-blue-eases);
+    margin: 100px 5.6rem 0 5.6rem;
+}
+.advantages2  h3{
+   font-size: 48px;
+   line-height: 10px
+}
+.advantages2  p{
+   font-size: 34px;
+   margin-bottom: 135px;
+}
+.advantages2 .cards img{
+    margin-left: 68px;
+}
+.advantages2 .cards button{
+  background: none;
+  border: none;
+}

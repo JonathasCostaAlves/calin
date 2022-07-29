@@ -7,6 +7,9 @@ import Hero from  '../../components/ComponentsHome/Hero'
 import Advantages from  '../../components/ComponentsHome/Advantages'
 import Banner from "../../components/ComponentsHome/Banner";
 import Facilities from "../../components/ComponentsHome/Facilities";
+import Advantages2 from "../../components/ComponentsHome/Advantages2";
+import Faq from "../../components/ComponentsHome/Faq";
+import Downloads from "../../components/ComponentsHome/Downloads";
 
 import Footer from '../../components/Footer'
 
@@ -19,15 +22,13 @@ export default props=>
         <Advantages />
         <Banner />
         <Facilities />
-        
-        <section className="advantages-2">advantages-2</section>
-        <section className="faq">faq</section>
-        <section className="download">Download</section>
-
-
+    <section className="advantages-faq">
+        <Advantages2 />
+        <Faq />        
+    </section>
 
         
-        
+        <Downloads />
 
         <Footer />
     </>
