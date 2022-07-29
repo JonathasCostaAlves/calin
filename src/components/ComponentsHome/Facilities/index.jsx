@@ -13,7 +13,7 @@ export default props =>
 
         <div className="ease d-flex justify-content-center flex-wrap align-items-center">
 
-            <img src={Pix} alt="Aria Pix - mulher sorrindo com a Calin | Pix area - women smiling with Calin" />
+            <img src={Pix} alt="Aria Pix - Mulher sorrindo com a Calin | Pix area - women smiling with Calin" />
 
             <div className="easeTitle d-flex flex-column align-items-center align-items-lg-start align-items-xl-start">
                 <h3>Pix</h3>
@@ -32,13 +32,13 @@ export default props =>
                 <button className="btn">BAIXE O APP</button>
             </div>
             
-            <img src={Boleto} alt="Aria Pix - mulher sorrindo com a Calin | Pix area - women smiling with Calin " className="order-1 order-sm-1 order-xl-1"/>
+            <img src={Boleto} alt="Area Boleto - Homem sorrindo com a Calin | Pix area - man smiling with Calin " className="order-1 order-sm-1 order-xl-1"/>
 
 
         </div>
 
         <div className="ease d-flex justify-content-center flex-wrap">
-            <img src={Card} alt="Aria Pix - mulher sorrindo com a Calin | Pix area - women smiling with Calin" />
+            <img src={Card} alt="area do cartão - o cartão da diverdade Calin | card area - the diversity card Calin" />
 
             <div className="easeTitle d-flex flex-column  align-items-start align-items-center align-items-lg-start align-items-xl-start">
                 <h3>Cartão de crédito</h3>
