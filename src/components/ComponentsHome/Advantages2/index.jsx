@@ -14,16 +14,16 @@ export default props =>
     <h3 >Não para por aí</h3>
     <p>aqui você tambem encontra beneficios com outros parceiros</p>
 
-    <div className="cards d-flex justify-content-center align-items-center">
+    <div className="cards d-flex justify-content-center align-items-center ">
      
 
-        <button> <img src={ArrowLeft} alt="Card Spotify" /> </button>
+        <button className="d-none d-sm-none d-md-none d-lg-none d-xl-block"> <img src={ArrowLeft} alt="Card Spotify" /> </button>
 
         <img className="d-block" src={CardQrcode} alt="Card Spotify" />
-        <img className="d-none d-sm-block d-md-block d-lg-block  d-xl-block" src={CardSpotify} alt="Card Spotify" />
-        <img className="d-none" src={CardAmazon} alt="Card Spotify" />
+        <img className="d-none d-sm-none d-md-block d-lg-block  d-xl-block" src={CardSpotify} alt="Card Spotify" />
+        <img className="d-none d-sm-none d-md-none d-lg-block  d-xl-block" src={CardAmazon} alt="Card Spotify" />
 
-        <button> <img src={ArrowRigth} alt="Card Spotify" /> </button>
+        <button className="d-none d-sm-none d-md-none d-lg-none d-xl-block"> <img src={ArrowRigth} alt="Card Spotify" /> </button>
 
        
         

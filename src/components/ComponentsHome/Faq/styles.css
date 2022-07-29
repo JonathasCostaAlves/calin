@@ -39,6 +39,10 @@
   .accordion-custon{
     font-size: 30px;
   }
+  .faq h2{
+    font-size: 20px;
+    font-family: var(--font-famile-brand);
+  }
 }
 @media (max-width: 767.98px) { 
   
@@ -48,11 +52,19 @@
   .accordion-custon{
     font-size: 30px;
   }
+  .faq h2{
+    font-size: 20px;
+    font-family: var(--font-famile-brand);
+  }
  }
 
 @media (max-width: 991.98px) { 
   .faq{      
     width: 80vw;  
+  }
+  .faq h2{
+    font-size: 20px;
+    font-family: var(--font-famile-brand);
   }
   .accordion-custon{
     font-size: 30px;
