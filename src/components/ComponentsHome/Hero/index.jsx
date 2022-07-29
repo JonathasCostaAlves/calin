@@ -6,7 +6,7 @@ import Phone from '../../../assets/imgs/Smart-Phone-hero.png'
 
 
 export default props =>
-    <section className="hero d-flex justify-content-around  flex-wrap ">
+    <section className="hero d-flex justify-content-around text-center text-md-start  flex-wrap ">
 
         <div className="heroTitle d-flex flex-column  mt-5  order-2 order-sm-2 order-xs-2 order-md-2 order-lg-1">
 

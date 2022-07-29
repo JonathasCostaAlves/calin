@@ -1,0 +1,55 @@
+.facilities{
+    font-family: var(--font-root);
+    margin-top: 23px;
+}
+.facilities  h2{
+    color: var(--font-color-blue-eases);
+    font-size: 48px;  
+    text-align: center;
+    margin-bottom: 98px ;
+}
+.facilities .ease{
+    margin: 0px 5.6rem 0 5.6rem;
+
+}
+.facilities .ease img{
+    max-width: 400px;
+    max-height: 580px;
+} 
+.facilities .easeTitle{
+    margin-left: 46px;
+    max-width: 568px;
+}
+.facilities .ease  h3{
+    font-size: 60px;
+    color: var(--font-color-blue); 
+    font-family: var(--font-title);  
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.facilities .ease p{
+    font-family: var(--font-root);
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.facilities .ease button{
+    background-color: var(--bg-header-mobile);
+    width: 257px;
+    height: 69px;
+    font-weight: 700;
+    border-radius: 16px;
+    border: none;
+    color: #fff;
+    margin-bottom: 58px;
+}
+.facilities .ease button:hover{
+    background-color: var(--bg-header-mobile-hover);
+}
+
+@media (max-width: 767.98px){
+    .facilities .ease h3{
+        text-align: center;
+    }
+}
+

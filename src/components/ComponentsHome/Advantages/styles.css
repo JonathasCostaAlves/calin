@@ -1,0 +1,21 @@
+.advantages{
+  font-family: var( --font-root);
+}
+.advantages .card{
+    background-color: var(--bg-card-advantages);
+    border: none;
+    width: 170px;
+    height: 180px;
+
+    margin-top: -45px;
+    margin-left: 20px;
+
+    border-radius: 16px;
+}
+.advantages .card>h5{
+   font-size: 20px;
+}
+.advantages img{
+    width: 60px;
+    height: 60px;
+}

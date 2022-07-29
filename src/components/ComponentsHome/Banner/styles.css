@@ -1,0 +1,27 @@
+.banner{
+    margin-top: 100px;
+    font-family: var(--font-root);
+    margin-bottom: 50px;
+}
+.banner img{
+    height:423px;
+    width: 423px;
+}
+.banner .bannerTitle{
+    max-width: 547px; 
+    
+}
+.banner .bannerTitle span{
+    font-size: 18px;
+    color: var(--font-color-blue);
+    margin-bottom: 45px;
+}
+.banner .bannerTitle h2{
+    font-family: var(--font-title);
+    font-size: 60px;
+    color: var(--font-color-blue);
+    margin-bottom:57px ;
+}
+.banner .bannerTitle p {
+    font-size: 24px;    
+}
