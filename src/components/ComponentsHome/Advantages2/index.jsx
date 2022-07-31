@@ -17,15 +17,13 @@ export default props =>
     <div className="cards d-flex justify-content-center align-items-center ">
      
 
-        <button className="d-none d-sm-none d-md-none d-lg-none d-xl-block"> <img src={ArrowLeft} alt="Card Spotify" /> </button>
+        <button className="d-none d-sm-none d-md-none d-lg-none d-xl-block"> <img src={ArrowLeft} alt="Seta esquerda | arrow left" /> </button>
 
-        <img className="d-block" src={CardQrcode} alt="Card Spotify" />
+        <img className="d-block" src={CardQrcode} alt="Card Qr-Code" />
         <img className="d-none d-sm-none d-md-block d-lg-block  d-xl-block" src={CardSpotify} alt="Card Spotify" />
-        <img className="d-none d-sm-none d-md-none d-lg-block  d-xl-block" src={CardAmazon} alt="Card Spotify" />
+        <img className="d-none d-sm-none d-md-none d-lg-block  d-xl-block" src={CardAmazon} alt="Card Amazon" />
 
-        <button className="d-none d-sm-none d-md-none d-lg-none d-xl-block"> <img src={ArrowRigth} alt="Card Spotify" /> </button>
+        <button className="d-none d-sm-none d-md-none d-lg-none d-xl-block"> <img src={ArrowRigth} alt="Seta direita | arrow right" /> </button>
 
-       
-        
     </div>
 </section>
