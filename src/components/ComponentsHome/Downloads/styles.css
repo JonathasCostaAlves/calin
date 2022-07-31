@@ -14,7 +14,7 @@
   padding: 0;
   margin: 0;
   margin-top: -80px;
-  margin-left: 3vw ;
+  margin-left: -10vw ;
 }
 
 .downloadTitle{
@@ -31,6 +31,7 @@
   font-family: var(--font-title);
   font-size: 20px;
 
+
 }
 .badgets{
   margin-bottom: 20px;
@@ -40,27 +41,8 @@
 .badgets:nth-child(2){
   margin-left: 10px;
 }
-@media (max-width: 575.98px) { 
-  .download{
-    background-size: cover;
 
-  }
-  .download .img-primary{
-    position: relative;
-    margin-top: 0px;
-  }
-  .download .img-primary{
-    margin-left: 0px ;
-  }
-  .downloadTitle{
-    margin-left: 0px;
-  
-  }
-  .badgets:nth-child(2){
-    margin-left: 0px;
-  }
 
-}
 @media (max-width: 767.98px) { 
   
   .download{
@@ -71,6 +53,13 @@
     position: relative;
     margin-top: 0px;
     margin-left: 0px ;
+  }
+  .downloadTitle p{
+    
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 34px ;
+  
   }
  
   .downloadTitle{
@@ -96,8 +85,7 @@
 
  }
  @media (max-width: 1199.98px) { 
- 
- 
+  
   .downloadTitle{
     margin-left: 0;
   
@@ -105,6 +93,5 @@
 
   .download .img-primary{
     margin-top: -80px;
-    /* margin-left: -120px ; */
   }
   }

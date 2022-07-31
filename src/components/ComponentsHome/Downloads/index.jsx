@@ -14,8 +14,8 @@ export default props =>
 
         <div className="downloadTitle d-flex flex-column   justify-conten-center justify-content-lg-start text-center text-sm-center text-md-start text-lg-start">
             <h2>Baixe nosso app</h2>
-            <p>Vem fazer parte da comunidade calin.</p>
-            <p>Facilite sua forma de pagar e receber dinheiro e ainda aproveite um universo de vantagens.</p>
+            <p >Vem fazer parte da comunidade calin.<br></br>
+            Facilite sua forma de pagar e receber dinheiro e ainda aproveite um universo de vantagens.</p>
 
             <img src={PhoneMobile} alt="imagem de smartphone | smartphone image" className="img-primary-mobile d-block d-sm-block d-lg-block d-xl-none d-xl-none" />
 

@@ -48,8 +48,27 @@
 }
 
 @media (max-width: 767.98px){
-    .facilities .ease h3{
-        text-align: center;
+    .facilities  h2{
+        font-size: 40px;  
+      
+    }
+    .facilities .ease  h3{
+        font-size: 40px;
+      
+    }
+    .facilities .ease p{
+        font-size: 20px;
+    
+    }
+   
+    .facilities .ease button{
+        width: 190px;
+        height: 45px;
+        border-radius: 35px;
+    }
+    .facilities .ease img{
+        max-width: 300px;
     }
 }
+
 

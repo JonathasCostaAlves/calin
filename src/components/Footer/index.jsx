@@ -10,7 +10,7 @@ import Tiktok from '../../assets/icons/tiktok-icon.svg'
 export default props =>
     <footer className="footer">
         <div className="footerTitle d-flex justify-content-evenly align-items-center flex-wrap">
-            <section className="footerBrand flex-wrap"  >
+            <section className="footerBrand d-flex align-items-center flex-column "  >
                 <h4>Calin</h4>
                 <span>#Simplificaê</span>
             </section>

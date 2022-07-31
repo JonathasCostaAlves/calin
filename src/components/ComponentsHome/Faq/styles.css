@@ -22,6 +22,7 @@
 .accordion-body{
   /* color: var(--font-color-blue-eases); */
   font-family: var(--font-root);
+ 
   
 }
 
@@ -31,19 +32,7 @@
 }
 
 
-@media (max-width: 575.98px) { 
-  
-  .faq{      
-    width: 800vw;  
-  }
-  .accordion-custon{
-    font-size: 30px;
-  }
-  .faq h2{
-    font-size: 20px;
-    font-family: var(--font-famile-brand);
-  }
-}
+
 @media (max-width: 767.98px) { 
   
   .faq{      
@@ -51,11 +40,24 @@
     margin: 156px auto 0 auto;
   }
   .accordion-custon{
+    font-size: 25px !important;
+    
+  }
+  .accordion-custon{
     font-size: 30px;
   }
   .faq h2{
-    font-size: 20px;
+    font-size: 40px;
     font-family: var(--font-famile-brand);
+  }
+  .faq p{
+    font-size: 20px;
+  }
+
+  .accordion-body{
+  font-size: 20px;
+   
+    
   }
  }
 
@@ -64,7 +66,7 @@
     width: 80vw;  
   }
   .faq h2{
-    font-size: 20px;
+    font-size: 40px;
     font-family: var(--font-famile-brand);
   }
   .accordion-custon{

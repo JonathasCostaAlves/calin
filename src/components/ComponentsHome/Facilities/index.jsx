@@ -8,7 +8,7 @@ import Boleto from '../../../assets/imgs/boleto.png'
 
 
 export default props =>
-    <section className="facilities d-flex flex-column justify-content-center ">
+    <section className="facilities d-flex flex-column justify-content-center text-center text-lg-start text-xl-start text=xxl-start">
         <h2>Descubra um universo de facilidades</h2>
 
         <div className="ease d-flex justify-content-center flex-wrap align-items-center">

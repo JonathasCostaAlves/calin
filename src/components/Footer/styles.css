@@ -53,5 +53,31 @@
     font-weight: 600;
     color: #00000060;
 }
+@media (max-width: 767.98px) { 
+    .footerBody {
+    
+        border-top: none; 
+    }
+    .footerTitle{
+        padding-bottom: 65px;
+        padding-top:0px;
+        
+    }
+  
+    .footerBrand{
+        padding-top:35px;
+        padding-bottom:35px;
+        background-color: var(--bg-footer-mobile);
+        width: 100vw;
+    }
+    .footerBrand h4{
+        border: none;
+        padding-bottom:30px ;
+       
+    }
+    .footer span{
+        margin-left:-10px;
+    }
+}
 
 

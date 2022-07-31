@@ -10,6 +10,7 @@ export default props =>
 <section className="advantages d-flex justify-content-center align-items-center">
 
     <div className="card d-flex justify-content-center align-items-center">
+        
         <h5>Desconto</h5>
         <img src={Discount} alt="discount icon - muito mais desconto para você " />
     </div>
