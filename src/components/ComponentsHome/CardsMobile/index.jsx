@@ -43,12 +43,14 @@ function navBanner(position = 0 ){
                 <h5>{type.title}</h5>
                 <img src={type.icon} alt={type.alt} />
             </div>
-            <div className="controls d-flex justify-content-center align-items-center">
+
+            <div className="controls d-flex justify-content-center align-items-center text-center">
                 <button onClick={e => navBanner(0)} ><img src={NavIcon} alt="item de navegação em vanatgens da Calin" /></button>
                 <button onClick={e => navBanner(1)} ><img src={NavIcon} alt="item de navegação em vanatgens da Calin" /></button>
                 <button onClick={e => navBanner(2)} ><img src={NavIcon} alt="item de navegação em vanatgens da Calin" /></button>
                 <button onClick={e => navBanner(3)} ><img src={NavIcon} alt="item de navegação em vanatgens da Calin" /></button>                
             </div>
+
         </section>
     )
 

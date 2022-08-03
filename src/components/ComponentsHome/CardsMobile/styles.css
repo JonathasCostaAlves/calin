@@ -11,9 +11,20 @@
     border-radius: 16px;
 }
 
+.controls{
+
+    /* border: 1px solid red; */
+}
+
 .controls button{
     background-color: transparent;
     border: none;
+    text-align: center;
 
+
+}
+
+.controls button img{
+    margin-left: 15px;
 }
 

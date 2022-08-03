@@ -11,6 +11,11 @@
     margin-left: 20px;
 
     border-radius: 16px;
+    
+    transition: all .3s;
+}
+.advantages .card:hover{
+  background-color: var( --bg-card-advantages-hover);
 }
 .advantages .card>h5{
    font-size: 20px;
