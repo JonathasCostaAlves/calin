@@ -1,0 +1,19 @@
+
+.cardsMobile .card{
+    background-color: var(--bg-card-advantages);
+    border: none;
+    width: 170px;
+    height: 180px;
+
+    margin-top: -45px;
+    margin-left: 20px;
+
+    border-radius: 16px;
+}
+
+.controls button{
+    background-color: transparent;
+    border: none;
+
+}
+

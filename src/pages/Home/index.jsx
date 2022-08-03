@@ -11,6 +11,8 @@ import Advantages2 from "../../components/ComponentsHome/Advantages2";
 import Faq from "../../components/ComponentsHome/Faq";
 import Downloads from "../../components/ComponentsHome/Downloads";
 
+import CardsMobile from "../../components/ComponentsHome/CardsMobile";
+
 import Footer from '../../components/Footer'
 
 export default props=>
@@ -20,15 +22,15 @@ export default props=>
         <Hero />
     </section>
         <Advantages />
+        <CardsMobile />
         <Banner />
         <Facilities />
     <section className="advantages-faq">
         <Advantages2 />
         <Faq />        
     </section>
-
         
         <Downloads />
-
         <Footer />
+
     </>
