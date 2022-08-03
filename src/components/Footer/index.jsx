@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import './styles.css'
 
 import Twitter from '../../assets/icons/twitter-icon.svg'
@@ -16,40 +17,40 @@ export default props =>
             </section>
 
             <section className="socialMedia mt-5">
-                <a href="#" target="_blank" rel="noopener noreferrer"><img src={Twitter} alt="Twitter icon" /></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="Facebook icon" /></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"><img src={LinkedIn} alt="LinkedIn icon" /></a>
-                <a href="#" target="_blank" rel="noopener noreferrer"><img src={Tiktok} alt="Tiktok icon" /></a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><img src={Twitter} alt="Twitter icon" /></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="Facebook icon" /></a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src={LinkedIn} alt="LinkedIn icon" /></a>
+                <a href="https://www.tiktok.com/    " target="_blank" rel="noopener noreferrer"><img src={Tiktok} alt="Tiktok icon" /></a>
             </section>
 
         </div>
         <div className="footerBody  d-flex justify-content-around align-items-center flex-wrap ">
            <ul className="pr-3">
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Início</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Sobre o Calin</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Nossos Valores</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Ética e Compliance</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Para Você</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Baixe o App</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Regulamentos</a></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Início</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Sobre o Calin</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Nossos Valores</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Ética e Compliance</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Para Você</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Baixe o App</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Regulamentos</Link></li>
            </ul>
            <ul className="pr-3">
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Parcele Boletos</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Pague com Calin</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Faça um Pix</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Rendimentos</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">PicPay Card</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Calin Card</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Baixe o App</a></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Parcele Boletos</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Pague com Calin</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Faça um Pix</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Rendimentos</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">PicPay Card</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Calin Card</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Baixe o App</Link></li>
            </ul>
            <ul className="pr-3">
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Fale com a gente</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Ouvidoria</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Informações</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Privacidade</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Segurança</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Tarifas e Taxas</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Fale com a gente</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Ouvidoria</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Informações</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Privacidade</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Segurança</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Tarifas e Taxas</Link></li>
+                <li><Link to="/constructor"  rel="noopener noreferrer">Blog</Link></li>
            </ul>
 
          </div>

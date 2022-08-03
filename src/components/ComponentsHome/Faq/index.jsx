@@ -15,7 +15,7 @@ export default props =>
                     </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="calin1" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Leite de capivaris, leite de mula manquis sem cabeça.Interagi no mé, cursus quis, vehicula ac nisi.Diuretics paradis num copo é motivis de denguis.Quem num gosta di mim que vai caçá sua turmis!</div>
+                    <div class="accordion-body">A Calin é uma carteira digital, HUUUM! Na verdade é uma nova forma de ver mundo facilitando sua relação com dinheiro, receba, pague, transfira tudo na palma da sua mão.</div>
                 </div>
             </div>
             <div class="accordion-item">
@@ -25,7 +25,7 @@ export default props =>
                     </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="calin2" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris se pirulitá.Aenean aliquam molestie leo, vitae iaculis nisl.Si num tem leite então bota uma pinga aí cumpadi!Paisis, filhis, espiritis santis.</div>
+                    <div class="accordion-body">É muito fácil!!!! Basta baixar o app para fazer o cadastro e pronto. Vamos validar os seus dados e o universo da Calin vai estar na palma da sua mão.</div>
                 </div>
             </div>
             <div class="accordion-item">
@@ -35,7 +35,7 @@ export default props =>
                     </button>
                 </h2>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="calin3" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Cevadis im ampola pa arma uma pindureta.Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.Quem manda na minha terra sou euzis!</div>
+                    <div class="accordion-body">Não, você tem taxa ZERO livre de anuidade! Baixe o app</div>
                 </div>
             </div>
             <div class="accordion-item">
@@ -49,7 +49,7 @@ export default props =>
                 </h2>
 
                 <div id="calin4" class="accordion-collapse collapse" aria-labelledby="calin3" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Cevadis im ampola pa arma uma pindureta.Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.Quem manda na minha terra sou euzis!</div>
+                    <div class="accordion-body">ZERO taxas, ZERO anuidade é muito fácil, ainda se complicar parcelamos sua fatura com as melhores condições do mercado.</div>
                 </div>
 
             </div>

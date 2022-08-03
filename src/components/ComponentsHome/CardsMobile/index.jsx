@@ -39,7 +39,7 @@ function navBanner(position = 0 ){
 
     return (
         <section className="cardsMobile d-flex flex-column justify-content-center  align-items-center d-md-flex d-lg-none d-xl-none d-xxl-none">
-            <div className="card d-flex justify-content-center align-items-center text-center">
+            <div className="card d-flex justify-content-center align-items-center text-center ">
                 <h5>{type.title}</h5>
                 <img src={type.icon} alt={type.alt} />
             </div>

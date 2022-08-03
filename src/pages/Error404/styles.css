@@ -1,0 +1,18 @@
+.pageError h1{
+    font-size: 6em;
+}
+
+.pageError img{
+    width: 300px;
+}
+
+.pageError h2 a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    transition: all .3s;
+}
+
+.pageError h2 a:hover{
+    color: rgba(0, 0, 0, 0.644);
+}

@@ -20,6 +20,9 @@
 .navbar-toggler{
     border: none;
 }
+.bgTrue{
+    background-color: var(--bg-header-mobile);
+}
 
 @media (max-width: 767.98px) { 
     .header {  
