@@ -29,7 +29,7 @@ useEffect ( () =>{
         setType(typesCard[count])
         if(count>=3) setCount(0)
 
-     }, 10000);
+     }, 5000);
 },[count]) 
 
 function navBanner(position = 0 ){  
@@ -43,7 +43,7 @@ function navBanner(position = 0 ){
                 <h5>{type.title}</h5>
                 <img src={type.icon} alt={type.alt} />
             </div>
-            <div className="controls">
+            <div className="controls d-flex justify-content-center align-items-center">
                 <button onClick={e => navBanner(0)} ><img src={NavIcon} alt="item de navegação em vanatgens da Calin" /></button>
                 <button onClick={e => navBanner(1)} ><img src={NavIcon} alt="item de navegação em vanatgens da Calin" /></button>
                 <button onClick={e => navBanner(2)} ><img src={NavIcon} alt="item de navegação em vanatgens da Calin" /></button>
